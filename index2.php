@@ -3,7 +3,7 @@
     <title>Basic Form</title>
   </head>
   <body>
-    <form method="POST" action="mathFunctions.php">
+    <form method="POST" action="division.php">
       <input type="text" name="numerator"/>  /  <input type="text" name="denominator" />
       <br />
       <button type="submit">Submit!</button>
