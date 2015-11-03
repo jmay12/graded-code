@@ -1,12 +1,11 @@
 <?php
 
-$num = $_POST['entry'];
-
 class celciusConvert {
 
 function celConv($x) {
-  if(isnumeric($x)) {
+  if(is_numeric($x)) {
      $result = (($x-32) * (5/9));
+    echo $result;
       return $result;
 
   } else {
@@ -14,9 +13,5 @@ function celConv($x) {
   }
 }
 }
-
-echo "Answer is " . celConv($num) . ".";
-echo "<br>";
-echo "<a href = 'http://jmay12php-136229.nitrousapp.com/graded-code/classes/index.php'>Go Back </a>";
 
 ?>
